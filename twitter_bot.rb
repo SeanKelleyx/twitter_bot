@@ -174,7 +174,7 @@ class TwitterBot
 
 	def unfollow_everyone
 		puts "\n\n\nFRIEND IDS:\n#{@friend_ids}\n\n\n"
-		unfollow_array(@friend_ids, true)
+		unfollow_array(@friend_ids)
 	end
 
 	def follow_array(ids, max=false)
